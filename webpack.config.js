@@ -7,13 +7,13 @@ module.exports = {
   mode: "development",
   entry: path.resolve(__dirname, "./src/js/index.js"),
   output: {
-    path: path.resolve(__dirname, "./public"),
+    path: path.resolve(__dirname, "./dist"),
     filename: "bundle.js",
     // clean: true,
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'public'),
+      directory: path.join(__dirname, 'dist'),
     },
     watchFiles: ["src/*.html", "src/css/*.css"],
     hot: true,
