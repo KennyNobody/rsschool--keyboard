@@ -1,11 +1,3 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -16,7 +8,9 @@
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://virtual-keyboard/./src/css/main.scss?");
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -26,7 +20,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://virtual-keyboard/./src/css/normalize.scss?");
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -36,17 +32,677 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"dataEng\": () => (/* binding */ dataEng),\n/* harmony export */   \"dataRus\": () => (/* binding */ dataRus)\n/* harmony export */ });\nconst dataEng = {\n  Backquote: {\n    value: \"`\",\n    valueShift: \"~\",\n    class: [\"key\", \"key--letter\", \"key--dark\"]\n  },\n  Digit1: {\n    value: \"1\",\n    valueShift: \"!\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit2: {\n    value: \"2\",\n    valueShift: \"@\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit3: {\n    value: \"3\",\n    valueShift: \"#\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit4: {\n    value: \"4\",\n    valueShift: \"$\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit5: {\n    value: \"5\",\n    valueShift: \"%\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit6: {\n    value: \"6\",\n    valueShift: \"^\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit7: {\n    value: \"7\",\n    valueShift: \"&\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit8: {\n    value: \"8\",\n    valueShift: \"*\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit9: {\n    value: \"9\",\n    valueShift: \"(\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit0: {\n    value: \"0\",\n    valueShift: \")\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Minus: {\n    value: \"-\",\n    valueShift: \"_\",\n    class: [\"key\", ]\n  },\n  Equal: {\n    value: \"=\",\n    valueShift: \"+\",\n    class: [\"key\", ]\n  },\n  Backspace: {\n    value: \"Backspace\",\n    valueShift: \"Backspace\",\n    class: [\"key\", \"key--backspace\", \"key--dark\"]\n  },\n  Tab: {\n    value: \"Tab\",\n    valueShift: \"Tab\",\n    class: [\"key\", \"key--tab\", \"key--dark\"]\n  },\n  KeyQ: {\n    value: \"q\",\n    valueShift: \"Q\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyW: {\n    value: \"w\",\n    valueShift: \"W\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyE: {\n    value: \"e\",\n    valueShift: \"E\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyR: {\n    value: \"r\",\n    valueShift: \"R\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyT: {\n    value: \"t\",\n    valueShift: \"T\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyY: {\n    value: \"y\",\n    valueShift: \"Y\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyU: {\n    value: \"u\",\n    valueShift: \"U\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyI: {\n    value: \"i\",\n    valueShift: \"I\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyO: {\n    value: \"o\",\n    valueShift: \"O\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyP: {\n    value: \"p\",\n    valueShift: \"P\",\n    class: [\"key\", \"key--letter\"]\n  },\n  BracketLeft: {\n    value: \"[\",\n    valueShift: \"{\",\n    class: [\"key\", \"key--letter\"]\n  },\n  BracketRight: {\n    value: \"]\",\n    valueShift: \"}\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Backslash: {\n    value: \"\\\\\",\n    valueShift: \"|\",\n    class: [\"key\", ]\n  },\n  Delete: {\n    value: \"Delete\",\n    valueShift: \"Delete\",\n    class: [\"key\", \"key--del\", \"key--dark\"],\n    symbol: \"Del\"\n  },\n  CapsLock: {\n    value: \"CapsLock\",\n    valueShift: \"CapsLock\",\n    class: [\"key\", \"key--caps\", \"key--dark\"]\n  },\n  KeyA: {\n    value: \"a\",\n    valueShift: \"A\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyS: {\n    value: \"s\",\n    valueShift: \"S\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyD: {\n    value: \"d\",\n    valueShift: \"D\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyF: {\n    value: \"f\",\n    valueShift: \"F\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyG: {\n    value: \"g\",\n    valueShift: \"G\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyH: {\n    value: \"h\",\n    valueShift: \"H\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyJ: {\n    value: \"j\",\n    valueShift: \"J\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyK: {\n    value: \"k\",\n    valueShift: \"K\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyL: {\n    value: \"l\",\n    valueShift: \"L\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Semicolon: {\n    value: \";\",\n    valueShift: \":\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Quote: {\n    value: \"'\",\n    valueShift: '\"',\n    class: [\"key\", \"key--letter\"]\n  },\n  Enter: {\n    value: \"Enter\",\n    valueShift: \"Enter\",\n    class: [\"key\", \"key--enter\", \"key--dark\"]\n  },\n  ShiftLeft: {\n    value: \"Shift\",\n    valueShift: \"Shift\",\n    class: [\"key\", \"key--shift-left\", \"key--dark\"]\n  },\n  KeyZ: {\n    value: \"z\",\n    valueShift: \"Z\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyX: {\n    value: \"x\",\n    valueShift: \"X\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyC: {\n    value: \"c\",\n    valueShift: \"C\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyV: {\n    value: \"v\",\n    valueShift: \"V\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyB: {\n    value: \"b\",\n    valueShift: \"B\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyN: {\n    value: \"n\",\n    valueShift: \"N\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyM: {\n    value: \"m\",\n    valueShift: \"M\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Comma: {\n    value: \",\",\n    valueShift: \"<\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Period: {\n    value: \".\",\n    valueShift: \">\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Slash: {\n    value: \"/\",\n    valueShift: \"?\",\n    class: [\"key\", ]\n  },\n  ArrowUp: {\n    value: \"ArrowUp\",\n    valueShift: \"ArrowUp\",\n    class: [\"key\", \"key--dark\", \"key--arrow\"],\n    symbol: \"&uarr;\"\n  },\n  ShiftRight: {\n    value: \"Shift\",\n    valueShift: \"Shift\",\n    class: [\"key\", \"key--shift-right\", \"key--dark\"]\n  },\n  ControlLeft: {\n    value: \"Control\",\n    valueShift: \"Control\",\n    class: [\"key\", \"key--ctrl\", \"key--dark\"],\n    symbol: \"Ctrl\",\n  },\n  MetaLeft: {\n    value: \"Meta\",\n    valueShift: \"Meta\",\n    class: [\"key\", \"key--dark\"],\n    symbol: \"Win\"\n  },\n  AltLeft: {\n    value: \"Alt\",\n    valueShift: \"Alt\",\n    class: [\"key\", \"key--alt\", \"key--dark\"],\n    symbol: \"Alt\"\n  },\n  Space: {\n    value: \" \",\n    valueShift: \" \",\n    class: [\"key\", \"key--space\"]\n  },\n  AltRight: {\n    value: \"Alt\",\n    valueShift: \"Alt\",\n    class: [\"key\", \"key--alt\", \"key--dark\"],\n    symbol: \"Alt\"\n  },\n  ArrowLeft: {\n    value: \"ArrowLeft\",\n    valueShift: \"ArrowLeft\",\n    class: [\"key\", \"key--arrow\", \"key--dark\"],\n    symbol: \"&larr;\"\n  },\n  ArrowDown: {\n    value: \"ArrowDown\",\n    valueShift: \"ArrowDown\",\n    class: [\"key\", \"key--arrow\", \"key--dark\"],\n    symbol: \"&darr;\"\n  },\n  ArrowRight: {\n    value: \"ArrowRight\",\n    valueShift: \"ArrowRight\",\n    class: [\"key\", \"key--arrow\", \"key--dark\"],\n    symbol: \"&rarr;\"\n  },\n  ControlRight: {\n    value: \"Control\",\n    valueShift: \"Control\",\n    class: [\"key\", \"key--ctrl\", \"key--dark\"],\n    symbol: \"Ctrl\",\n  },\n};\n\nconst dataRus = {\n  Backquote: {\n    value: \"ё\",\n    valueShift: \"Ё\",\n    class: [\"key\", \"key--letter\", \"key--dark\"]\n  },\n  Digit1: {\n    value: \"1\",\n    valueShift: \"!\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit2: {\n    value: \"2\",\n    valueShift: '\"',\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit3: {\n    value: \"3\",\n    valueShift: \"№\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit4: {\n    value: \"4\",\n    valueShift: \";\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit5: {\n    value: \"5\",\n    valueShift: \"%\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit6: {\n    value: \"6\",\n    valueShift: \":\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit7: {\n    value: \"7\",\n    valueShift: \"?\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit8: {\n    value: \"8\",\n    valueShift: \"*\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit9: {\n    value: \"9\",\n    valueShift: \"(\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Digit0: {\n    value: \"0\",\n    valueShift: \")\",\n    class: [\"key\", \"key--digit\"]\n  },\n  Minus: {\n    value: \"-\",\n    valueShift: \"_\",\n    class: [\"key\", ]\n  },\n  Equal: {\n    value: \"=\",\n    valueShift: \"+\",\n    class: [\"key\", ]\n  },\n  Backspace: {\n    value: \"Backspace\",\n    valueShift: \"Backspace\",\n    class: [\"key\", \"key--backspace\", \"key--dark\"]\n  },\n  Tab: {\n    value: \"Tab\",\n    valueShift: \"Tab\",\n    class: [\"key\", \"key--tab\", \"key--dark\"],\n  },\n  KeyQ: {\n    value: \"й\",\n    valueShift: \"Й\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyW: {\n    value: \"ц\",\n    valueShift: \"Ц\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyE: {\n    value: \"у\",\n    valueShift: \"У\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyR: {\n    value: \"к\",\n    valueShift: \"К\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyT: {\n    value: \"е\",\n    valueShift: \"Е\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyY: {\n    value: \"н\",\n    valueShift: \"Н\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyU: {\n    value: \"г\",\n    valueShift: \"Г\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyI: {\n    value: \"ш\",\n    valueShift: \"Ш\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyO: {\n    value: \"щ\",\n    valueShift: \"Щ\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyP: {\n    value: \"з\",\n    valueShift: \"З\",\n    class: [\"key\", \"key--letter\"]\n  },\n  BracketLeft: {\n    value: \"х\",\n    valueShift: \"Х\",\n    class: [\"key\", \"key--letter\"]\n  },\n  BracketRight: {\n    value: \"ъ\",\n    valueShift: \"Ъ\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Backslash: {\n    value: \"\\\\\",\n    valueShift: \"/\",\n    class: [\"key\", ]\n  },\n  Delete: {\n    value: \"Delete\",\n    valueShift: \"Delete\",\n    class: [\"key\", \"key--del\", \"key--dark\"],\n    symbol: \"Del\"\n  },\n  CapsLock: {\n    value: \"CapsLock\",\n    valueShift: \"CapsLock\",\n    class: [\"key\", \"key--caps\", \"key--dark\"]\n  },\n  KeyA: {\n    value: \"ф\",\n    valueShift: \"Ф\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyS: {\n    value: \"ы\",\n    valueShift: \"Ы\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyD: {\n    value: \"в\",\n    valueShift: \"В\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyF: {\n    value: \"а\",\n    valueShift: \"А\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyG: {\n    value: \"п\",\n    valueShift: \"П\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyH: {\n    value: \"р\",\n    valueShift: \"Р\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyJ: {\n    value: \"о\",\n    valueShift: \"О\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyK: {\n    value: \"л\",\n    valueShift: \"Л\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyL: {\n    value: \"д\",\n    valueShift: \"Д\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Semicolon: {\n    value: \"ж\",\n    valueShift: \"Ж\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Quote: {\n    value: \"э\",\n    valueShift: \"Э\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Enter: {\n    value: \"Enter\",\n    valueShift: \"Enter\",\n    class: [\"key\", \"key--enter\", \"key--dark\"]\n  },\n  ShiftLeft: {\n    value: \"Shift\",\n    valueShift: \"Shift\",\n    class: [\"key\", \"key--shift-left\", \"key--dark\"]\n  },\n  KeyZ: {\n    value: \"я\",\n    valueShift: \"Я\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyX: {\n    value: \"ч\",\n    valueShift: \"Ч\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyC: {\n    value: \"с\",\n    valueShift: \"С\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyV: {\n    value: \"м\",\n    valueShift: \"М\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyB: {\n    value: \"и\",\n    valueShift: \"И\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyN: {\n    value: \"т\",\n    valueShift: \"Т\",\n    class: [\"key\", \"key--letter\"]\n  },\n  KeyM: {\n    value: \"ь\",\n    valueShift: \"Ь\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Comma: {\n    value: \"б\",\n    valueShift: \"Б\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Period: {\n    value: \"ю\",\n    valueShift: \"Ю\",\n    class: [\"key\", \"key--letter\"]\n  },\n  Slash: {\n    value: \".\",\n    valueShift: \",\",\n    class: [\"key\", \"key--letter\"]\n  },\n  ArrowUp: {\n    value: \"ArrowUp\",\n    valueShift: \"ArrowUp\",\n    class: [\"key\", \"key--arrow\", \"key--dark\"],\n    symbol: \"&uarr;\"\n  },\n  ShiftRight: {\n    value: \"Shift\",\n    valueShift: \"Shift\",\n    class: [\"key\", \"key--shift-left\", \"key--dark\"]\n  },\n  ControlLeft: {\n    value: \"Control\",\n    valueShift: \"Control\",\n    class: [\"key\", \"key--ctrl\", \"key--dark\"],\n    symbol: \"Ctrl\",\n  },\n  MetaLeft: {\n    value: \"Meta\",\n    valueShift: \"Meta\",\n    class: [\"key\", \"key--dark\"],\n    symbol: \"Win\"\n  },\n  AltLeft: {\n    value: \"Alt\",\n    valueShift: \"Alt\",\n    class: [\"key\", \"key--alt\", \"key--dark\"],\n    symbol: \"Alt\"\n  },\n  Space: {\n    value: \" \",\n    valueShift: \" \",\n    class: [\"key\", \"key--space\"]\n  },\n  AltRight: {\n    value: \"Alt\",\n    valueShift: \"Alt\",\n    class: [\"key\", \"key--alt\", \"key--dark\"],\n    symbol: \"Alt\"\n  },\n  ArrowLeft: {\n    value: \"ArrowLeft\",\n    valueShift: \"ArrowLeft\",\n    class: [\"key\", \"key--arrow\", \"key--dark\"],\n    symbol: \"&larr;\"\n  },\n  ArrowDown: {\n    value: \"ArrowDown\",\n    valueShift: \"ArrowDown\",\n    class: [\"key\", \"key--arrow\", \"key--dark\"],\n    symbol: \"&darr;\"\n  },\n  ArrowRight: {\n    value: \"ArrowRight\",\n    valueShift: \"ArrowRight\",\n    class: [\"key\", \"key--arrow\", \"key--dark\"],\n    symbol: \"&rarr;\"\n  },\n  ControlRight: {\n    value: \"Control\",\n    valueShift: \"Control\",\n    class: [\"key\", \"key--ctrl\", \"key--dark\"],\n    symbol: \"Ctrl\",\n  },\n};\n\n\n//# sourceURL=webpack://virtual-keyboard/./src/js/data.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "dataEng": () => (/* binding */ dataEng),
+/* harmony export */   "dataRus": () => (/* binding */ dataRus)
+/* harmony export */ });
+const dataEng = {
+  Backquote: {
+    value: "`",
+    valueShift: "~",
+    class: ["key", "key--letter", "key--dark"]
+  },
+  Digit1: {
+    value: "1",
+    valueShift: "!",
+    class: ["key", "key--digit"]
+  },
+  Digit2: {
+    value: "2",
+    valueShift: "@",
+    class: ["key", "key--digit"]
+  },
+  Digit3: {
+    value: "3",
+    valueShift: "#",
+    class: ["key", "key--digit"]
+  },
+  Digit4: {
+    value: "4",
+    valueShift: "$",
+    class: ["key", "key--digit"]
+  },
+  Digit5: {
+    value: "5",
+    valueShift: "%",
+    class: ["key", "key--digit"]
+  },
+  Digit6: {
+    value: "6",
+    valueShift: "^",
+    class: ["key", "key--digit"]
+  },
+  Digit7: {
+    value: "7",
+    valueShift: "&",
+    class: ["key", "key--digit"]
+  },
+  Digit8: {
+    value: "8",
+    valueShift: "*",
+    class: ["key", "key--digit"]
+  },
+  Digit9: {
+    value: "9",
+    valueShift: "(",
+    class: ["key", "key--digit"]
+  },
+  Digit0: {
+    value: "0",
+    valueShift: ")",
+    class: ["key", "key--digit"]
+  },
+  Minus: {
+    value: "-",
+    valueShift: "_",
+    class: ["key", ]
+  },
+  Equal: {
+    value: "=",
+    valueShift: "+",
+    class: ["key", ]
+  },
+  Backspace: {
+    value: "Backspace",
+    valueShift: "Backspace",
+    class: ["key", "key--backspace", "key--dark"]
+  },
+  Tab: {
+    value: "Tab",
+    valueShift: "Tab",
+    class: ["key", "key--tab", "key--dark"]
+  },
+  KeyQ: {
+    value: "q",
+    valueShift: "Q",
+    class: ["key", "key--letter"]
+  },
+  KeyW: {
+    value: "w",
+    valueShift: "W",
+    class: ["key", "key--letter"]
+  },
+  KeyE: {
+    value: "e",
+    valueShift: "E",
+    class: ["key", "key--letter"]
+  },
+  KeyR: {
+    value: "r",
+    valueShift: "R",
+    class: ["key", "key--letter"]
+  },
+  KeyT: {
+    value: "t",
+    valueShift: "T",
+    class: ["key", "key--letter"]
+  },
+  KeyY: {
+    value: "y",
+    valueShift: "Y",
+    class: ["key", "key--letter"]
+  },
+  KeyU: {
+    value: "u",
+    valueShift: "U",
+    class: ["key", "key--letter"]
+  },
+  KeyI: {
+    value: "i",
+    valueShift: "I",
+    class: ["key", "key--letter"]
+  },
+  KeyO: {
+    value: "o",
+    valueShift: "O",
+    class: ["key", "key--letter"]
+  },
+  KeyP: {
+    value: "p",
+    valueShift: "P",
+    class: ["key", "key--letter"]
+  },
+  BracketLeft: {
+    value: "[",
+    valueShift: "{",
+    class: ["key", "key--letter"]
+  },
+  BracketRight: {
+    value: "]",
+    valueShift: "}",
+    class: ["key", "key--letter"]
+  },
+  Backslash: {
+    value: "\\",
+    valueShift: "|",
+    class: ["key", ]
+  },
+  Delete: {
+    value: "Delete",
+    valueShift: "Delete",
+    class: ["key", "key--del", "key--dark"],
+    symbol: "Del"
+  },
+  CapsLock: {
+    value: "CapsLock",
+    valueShift: "CapsLock",
+    class: ["key", "key--caps", "key--dark"]
+  },
+  KeyA: {
+    value: "a",
+    valueShift: "A",
+    class: ["key", "key--letter"]
+  },
+  KeyS: {
+    value: "s",
+    valueShift: "S",
+    class: ["key", "key--letter"]
+  },
+  KeyD: {
+    value: "d",
+    valueShift: "D",
+    class: ["key", "key--letter"]
+  },
+  KeyF: {
+    value: "f",
+    valueShift: "F",
+    class: ["key", "key--letter"]
+  },
+  KeyG: {
+    value: "g",
+    valueShift: "G",
+    class: ["key", "key--letter"]
+  },
+  KeyH: {
+    value: "h",
+    valueShift: "H",
+    class: ["key", "key--letter"]
+  },
+  KeyJ: {
+    value: "j",
+    valueShift: "J",
+    class: ["key", "key--letter"]
+  },
+  KeyK: {
+    value: "k",
+    valueShift: "K",
+    class: ["key", "key--letter"]
+  },
+  KeyL: {
+    value: "l",
+    valueShift: "L",
+    class: ["key", "key--letter"]
+  },
+  Semicolon: {
+    value: ";",
+    valueShift: ":",
+    class: ["key", "key--letter"]
+  },
+  Quote: {
+    value: "'",
+    valueShift: '"',
+    class: ["key", "key--letter"]
+  },
+  Enter: {
+    value: "Enter",
+    valueShift: "Enter",
+    class: ["key", "key--enter", "key--dark"]
+  },
+  ShiftLeft: {
+    value: "Shift",
+    valueShift: "Shift",
+    class: ["key", "key--shift-left", "key--dark"]
+  },
+  KeyZ: {
+    value: "z",
+    valueShift: "Z",
+    class: ["key", "key--letter"]
+  },
+  KeyX: {
+    value: "x",
+    valueShift: "X",
+    class: ["key", "key--letter"]
+  },
+  KeyC: {
+    value: "c",
+    valueShift: "C",
+    class: ["key", "key--letter"]
+  },
+  KeyV: {
+    value: "v",
+    valueShift: "V",
+    class: ["key", "key--letter"]
+  },
+  KeyB: {
+    value: "b",
+    valueShift: "B",
+    class: ["key", "key--letter"]
+  },
+  KeyN: {
+    value: "n",
+    valueShift: "N",
+    class: ["key", "key--letter"]
+  },
+  KeyM: {
+    value: "m",
+    valueShift: "M",
+    class: ["key", "key--letter"]
+  },
+  Comma: {
+    value: ",",
+    valueShift: "<",
+    class: ["key", "key--letter"]
+  },
+  Period: {
+    value: ".",
+    valueShift: ">",
+    class: ["key", "key--letter"]
+  },
+  Slash: {
+    value: "/",
+    valueShift: "?",
+    class: ["key", ]
+  },
+  ArrowUp: {
+    value: "ArrowUp",
+    valueShift: "ArrowUp",
+    class: ["key", "key--dark", "key--arrow"],
+    symbol: "&uarr;"
+  },
+  ShiftRight: {
+    value: "Shift",
+    valueShift: "Shift",
+    class: ["key", "key--shift-right", "key--dark"]
+  },
+  ControlLeft: {
+    value: "Control",
+    valueShift: "Control",
+    class: ["key", "key--ctrl", "key--dark"],
+    symbol: "Ctrl",
+  },
+  MetaLeft: {
+    value: "Meta",
+    valueShift: "Meta",
+    class: ["key", "key--dark"],
+    symbol: "Win"
+  },
+  AltLeft: {
+    value: "Alt",
+    valueShift: "Alt",
+    class: ["key", "key--alt", "key--dark"],
+    symbol: "Alt"
+  },
+  Space: {
+    value: " ",
+    valueShift: " ",
+    class: ["key", "key--space"]
+  },
+  AltRight: {
+    value: "Alt",
+    valueShift: "Alt",
+    class: ["key", "key--alt", "key--dark"],
+    symbol: "Alt"
+  },
+  ArrowLeft: {
+    value: "ArrowLeft",
+    valueShift: "ArrowLeft",
+    class: ["key", "key--arrow", "key--dark"],
+    symbol: "&larr;"
+  },
+  ArrowDown: {
+    value: "ArrowDown",
+    valueShift: "ArrowDown",
+    class: ["key", "key--arrow", "key--dark"],
+    symbol: "&darr;"
+  },
+  ArrowRight: {
+    value: "ArrowRight",
+    valueShift: "ArrowRight",
+    class: ["key", "key--arrow", "key--dark"],
+    symbol: "&rarr;"
+  },
+  ControlRight: {
+    value: "Control",
+    valueShift: "Control",
+    class: ["key", "key--ctrl", "key--dark"],
+    symbol: "Ctrl",
+  },
+};
 
-/***/ }),
+const dataRus = {
+  Backquote: {
+    value: "ё",
+    valueShift: "Ё",
+    class: ["key", "key--letter", "key--dark"]
+  },
+  Digit1: {
+    value: "1",
+    valueShift: "!",
+    class: ["key", "key--digit"]
+  },
+  Digit2: {
+    value: "2",
+    valueShift: '"',
+    class: ["key", "key--digit"]
+  },
+  Digit3: {
+    value: "3",
+    valueShift: "№",
+    class: ["key", "key--digit"]
+  },
+  Digit4: {
+    value: "4",
+    valueShift: ";",
+    class: ["key", "key--digit"]
+  },
+  Digit5: {
+    value: "5",
+    valueShift: "%",
+    class: ["key", "key--digit"]
+  },
+  Digit6: {
+    value: "6",
+    valueShift: ":",
+    class: ["key", "key--digit"]
+  },
+  Digit7: {
+    value: "7",
+    valueShift: "?",
+    class: ["key", "key--digit"]
+  },
+  Digit8: {
+    value: "8",
+    valueShift: "*",
+    class: ["key", "key--digit"]
+  },
+  Digit9: {
+    value: "9",
+    valueShift: "(",
+    class: ["key", "key--digit"]
+  },
+  Digit0: {
+    value: "0",
+    valueShift: ")",
+    class: ["key", "key--digit"]
+  },
+  Minus: {
+    value: "-",
+    valueShift: "_",
+    class: ["key", ]
+  },
+  Equal: {
+    value: "=",
+    valueShift: "+",
+    class: ["key", ]
+  },
+  Backspace: {
+    value: "Backspace",
+    valueShift: "Backspace",
+    class: ["key", "key--backspace", "key--dark"]
+  },
+  Tab: {
+    value: "Tab",
+    valueShift: "Tab",
+    class: ["key", "key--tab", "key--dark"],
+  },
+  KeyQ: {
+    value: "й",
+    valueShift: "Й",
+    class: ["key", "key--letter"]
+  },
+  KeyW: {
+    value: "ц",
+    valueShift: "Ц",
+    class: ["key", "key--letter"]
+  },
+  KeyE: {
+    value: "у",
+    valueShift: "У",
+    class: ["key", "key--letter"]
+  },
+  KeyR: {
+    value: "к",
+    valueShift: "К",
+    class: ["key", "key--letter"]
+  },
+  KeyT: {
+    value: "е",
+    valueShift: "Е",
+    class: ["key", "key--letter"]
+  },
+  KeyY: {
+    value: "н",
+    valueShift: "Н",
+    class: ["key", "key--letter"]
+  },
+  KeyU: {
+    value: "г",
+    valueShift: "Г",
+    class: ["key", "key--letter"]
+  },
+  KeyI: {
+    value: "ш",
+    valueShift: "Ш",
+    class: ["key", "key--letter"]
+  },
+  KeyO: {
+    value: "щ",
+    valueShift: "Щ",
+    class: ["key", "key--letter"]
+  },
+  KeyP: {
+    value: "з",
+    valueShift: "З",
+    class: ["key", "key--letter"]
+  },
+  BracketLeft: {
+    value: "х",
+    valueShift: "Х",
+    class: ["key", "key--letter"]
+  },
+  BracketRight: {
+    value: "ъ",
+    valueShift: "Ъ",
+    class: ["key", "key--letter"]
+  },
+  Backslash: {
+    value: "\\",
+    valueShift: "/",
+    class: ["key", ]
+  },
+  Delete: {
+    value: "Delete",
+    valueShift: "Delete",
+    class: ["key", "key--del", "key--dark"],
+    symbol: "Del"
+  },
+  CapsLock: {
+    value: "CapsLock",
+    valueShift: "CapsLock",
+    class: ["key", "key--caps", "key--dark"]
+  },
+  KeyA: {
+    value: "ф",
+    valueShift: "Ф",
+    class: ["key", "key--letter"]
+  },
+  KeyS: {
+    value: "ы",
+    valueShift: "Ы",
+    class: ["key", "key--letter"]
+  },
+  KeyD: {
+    value: "в",
+    valueShift: "В",
+    class: ["key", "key--letter"]
+  },
+  KeyF: {
+    value: "а",
+    valueShift: "А",
+    class: ["key", "key--letter"]
+  },
+  KeyG: {
+    value: "п",
+    valueShift: "П",
+    class: ["key", "key--letter"]
+  },
+  KeyH: {
+    value: "р",
+    valueShift: "Р",
+    class: ["key", "key--letter"]
+  },
+  KeyJ: {
+    value: "о",
+    valueShift: "О",
+    class: ["key", "key--letter"]
+  },
+  KeyK: {
+    value: "л",
+    valueShift: "Л",
+    class: ["key", "key--letter"]
+  },
+  KeyL: {
+    value: "д",
+    valueShift: "Д",
+    class: ["key", "key--letter"]
+  },
+  Semicolon: {
+    value: "ж",
+    valueShift: "Ж",
+    class: ["key", "key--letter"]
+  },
+  Quote: {
+    value: "э",
+    valueShift: "Э",
+    class: ["key", "key--letter"]
+  },
+  Enter: {
+    value: "Enter",
+    valueShift: "Enter",
+    class: ["key", "key--enter", "key--dark"]
+  },
+  ShiftLeft: {
+    value: "Shift",
+    valueShift: "Shift",
+    class: ["key", "key--shift-left", "key--dark"]
+  },
+  KeyZ: {
+    value: "я",
+    valueShift: "Я",
+    class: ["key", "key--letter"]
+  },
+  KeyX: {
+    value: "ч",
+    valueShift: "Ч",
+    class: ["key", "key--letter"]
+  },
+  KeyC: {
+    value: "с",
+    valueShift: "С",
+    class: ["key", "key--letter"]
+  },
+  KeyV: {
+    value: "м",
+    valueShift: "М",
+    class: ["key", "key--letter"]
+  },
+  KeyB: {
+    value: "и",
+    valueShift: "И",
+    class: ["key", "key--letter"]
+  },
+  KeyN: {
+    value: "т",
+    valueShift: "Т",
+    class: ["key", "key--letter"]
+  },
+  KeyM: {
+    value: "ь",
+    valueShift: "Ь",
+    class: ["key", "key--letter"]
+  },
+  Comma: {
+    value: "б",
+    valueShift: "Б",
+    class: ["key", "key--letter"]
+  },
+  Period: {
+    value: "ю",
+    valueShift: "Ю",
+    class: ["key", "key--letter"]
+  },
+  Slash: {
+    value: ".",
+    valueShift: ",",
+    class: ["key", "key--letter"]
+  },
+  ArrowUp: {
+    value: "ArrowUp",
+    valueShift: "ArrowUp",
+    class: ["key", "key--arrow", "key--dark"],
+    symbol: "&uarr;"
+  },
+  ShiftRight: {
+    value: "Shift",
+    valueShift: "Shift",
+    class: ["key", "key--shift-left", "key--dark"]
+  },
+  ControlLeft: {
+    value: "Control",
+    valueShift: "Control",
+    class: ["key", "key--ctrl", "key--dark"],
+    symbol: "Ctrl",
+  },
+  MetaLeft: {
+    value: "Meta",
+    valueShift: "Meta",
+    class: ["key", "key--dark"],
+    symbol: "Win"
+  },
+  AltLeft: {
+    value: "Alt",
+    valueShift: "Alt",
+    class: ["key", "key--alt", "key--dark"],
+    symbol: "Alt"
+  },
+  Space: {
+    value: " ",
+    valueShift: " ",
+    class: ["key", "key--space"]
+  },
+  AltRight: {
+    value: "Alt",
+    valueShift: "Alt",
+    class: ["key", "key--alt", "key--dark"],
+    symbol: "Alt"
+  },
+  ArrowLeft: {
+    value: "ArrowLeft",
+    valueShift: "ArrowLeft",
+    class: ["key", "key--arrow", "key--dark"],
+    symbol: "&larr;"
+  },
+  ArrowDown: {
+    value: "ArrowDown",
+    valueShift: "ArrowDown",
+    class: ["key", "key--arrow", "key--dark"],
+    symbol: "&darr;"
+  },
+  ArrowRight: {
+    value: "ArrowRight",
+    valueShift: "ArrowRight",
+    class: ["key", "key--arrow", "key--dark"],
+    symbol: "&rarr;"
+  },
+  ControlRight: {
+    value: "Control",
+    valueShift: "Control",
+    class: ["key", "key--ctrl", "key--dark"],
+    symbol: "Ctrl",
+  },
+};
 
-/***/ "./src/js/index.js":
-/*!*************************!*\
-  !*** ./src/js/index.js ***!
-  \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_normalize_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/normalize.scss */ \"./src/css/normalize.scss\");\n/* harmony import */ var _css_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/main.scss */ \"./src/css/main.scss\");\n/* harmony import */ var _keyboard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./keyboard */ \"./src/js/keyboard.js\");\n\n\n\n\ndocument.addEventListener('DOMContentLoaded', () => {\n  window.app = new _keyboard__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\n});\n\n//# sourceURL=webpack://virtual-keyboard/./src/js/index.js?");
 
 /***/ }),
 
@@ -56,7 +712,400 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data */ \"./src/js/data.js\");\n\n\nclass Keyboard {\n  constructor() {\n    this.flagCaps = false;\n    this.flagShift = false;\n    this.flagCtrl = false;\n    this.lang = null;\n    this.wrap = null;\n    this.copyboard = \"\";\n\n    this.init();\n  }\n\n  init() {\n\n    this.createDOM();\n    this.createDescription();\n\n    document.addEventListener('keydown', (e) => {\n      this.keyboardEventEnable(e);\n    });\n\n    document.addEventListener('keyup', (e) => {\n      this.keyboardEventDisable(e);\n    });\n\n    this.someKeys();\n    this.getLanguage()\n  }\n\n  createDOM = () => {\n    this.wrap = null;\n    this.wrap = document.createElement(\"div\");\n    this.wrap.classList.add(\"keyboard\");\n\n    this.textarea = document.createElement(\"textarea\");\n    this.textarea.classList.add(\"keyboard__textarea\");\n    this.wrap.appendChild(this.textarea);\n\n    this.keyboard = document.createElement(\"div\");\n    this.keyboard.classList.add(\"keyboard__control\");\n    this.wrap.appendChild(this.keyboard);\n\n    this.keyboard.addEventListener(\"click\", (e) => {\n      this.mouseEvent(e);\n    });\n\n    document.body.appendChild(this.wrap);\n  }\n\n  cleanDOM = () => {\n    this.keyboard.innerHTML = \"\";\n  }\n\n  getLanguage = () => {\n    const langStorage = localStorage.getItem(\"language\");\n    let lang = \"eng\";\n\n    if (langStorage) {\n      lang = langStorage;\n    }\n\n    this.addKeyboard(lang);\n  }\n\n  addKeyboard(langKeyboard) {\n    this.lang = langKeyboard;\n\n    if (langKeyboard === \"eng\") {\n      this.keyLang = _data__WEBPACK_IMPORTED_MODULE_0__.dataEng\n    } else {\n      this.keyLang = _data__WEBPACK_IMPORTED_MODULE_0__.dataRus\n    }\n\n    Object.keys(this.keyLang).forEach((keyCode) => {\n      this[keyCode] = document.createElement(\"div\");\n      this[keyCode].setAttribute(\"id\", `${keyCode}`);\n\n      if (this.keyLang[keyCode].symbol) {\n        this[keyCode].innerHTML = this.keyLang[keyCode].symbol;\n      } else {\n        this[keyCode].innerHTML = `${this.keyLang[keyCode].value}`;\n      }\n\n      /* eslint-disable-next-line */\n      for (const i of this.keyLang[keyCode].class) {\n        this[keyCode].classList.add(i);\n      }\n\n      this.keyboard.appendChild(this[keyCode]);\n    });\n  }\n\n  createDescription = () => {\n    const footerNode = document.createElement(\"div\");\n    footerNode.classList.add('keyboard__info');\n\n    const message = `\n      <p>Тестировалось в Chrome для Windows (версия 101.0.4951.54)</p>\n      <p>Переключение языка: <strong>LShift + LAlt</strong></p>\n      <p>Связаться: <a href=\"https://t.me/Kenny_Nobody\">Kenny_Nobody</a></p>\n    `;\n\n    footerNode.innerHTML = message;\n    this.wrap.prepend(footerNode);\n  }\n\n  handleEnter = () => {\n    const start = this.getPosition('start');\n    const end = this.getPosition('end');\n    const text = `${this.textarea.value.substring(0, start)}\\n${this.textarea.value.substring(end)}`;\n\n    this.textarea.value = text;\n    this.textarea.focus();\n    this.textarea.selectionEnd = this.getPosition('end') - this.textarea.value.substring(end).length + 1;\n    this.textarea.selectionStart = this.getPosition('end') - this.textarea.value.substring(end).length + 1;\n  }\n\n  handleCapsLock = (keyDown) => {\n    if (!this.flagCaps) {\n      for (let k = 0; k < this.keyboard.children.length; k += 1) {\n        const key = this.keyboard.children[k];\n        if (key.classList.contains(\"key--letter\")) {\n          key.textContent = key.textContent.toUpperCase();\n        }\n      }\n    } else {\n      keyDown.classList.remove(\"key--active\");\n\n      for (let k = 0; k < this.keyboard.children.length; k += 1) {\n        const key = this.keyboard.children[k];\n        if (key.classList.contains(\"key--letter\")) {\n          key.textContent = key.textContent.toLowerCase();\n        }\n      }\n    }\n    this.flagCaps = !this.flagCaps;\n  }\n\n  handleTab = () => {\n    const start = this.getPosition('start');\n    const end = this.getPosition('end');\n    const tabSymbol = \"    \";\n    const text = this.textarea.value.substring(0, start) + tabSymbol + this.textarea.value.substring(end);\n\n    this.textarea.value = text;\n    this.textarea.focus();\n    this.textarea.selectionEnd = start === end ? end + tabSymbol.length : end;\n  }\n\n  handleDelete = () => {\n    const start = this.getPosition('start');\n    const end = this.getPosition('end');\n\n    const text = (start === end) ? this.textarea.value.substring(0, start) + this.textarea.value.substring(end + 1) : this.textarea.value.substring(0, start) + this.textarea.value.substring(end);\n\n    this.textarea.value = text;\n    this.textarea.focus();\n    this.textarea.selectionEnd = start;\n    this.textarea.selectionStart = start;\n  }\n\n  handleArrowLeft = () => {\n    const start = this.getPosition('start');\n\n    if (start) {\n      this.textarea.selectionEnd = start - 1;\n      this.textarea.selectionStart = start - 1;\n    }\n  }\n\n  handleArrowRight = () => {\n    const start = this.getPosition('start');\n    const end = this.getPosition('end');\n\n    if (this.flagShift === true) {\n      this.textarea.selectionEnd = end + 1;\n    } else {\n      this.textarea.selectionEnd = start + 1;\n      this.textarea.selectionStart = start + 1;\n    }\n  }\n\n  handleArrowUp = () => {\n    const start = this.getPosition('start');\n    const end = this.getPosition('end');\n    const text = `${this.textarea.value.substring(0, start)}↑${this.textarea.value.substring(end)}`;\n\n    this.setText(text);\n    this.textarea.selectionEnd = (start === end) ? end + 1 : end;\n  }\n\n  handleArrowDown = () => {\n    const start = this.getPosition('start');\n    const end = this.getPosition('end');\n    const text = `${this.textarea.value.substring(0, start)}↓${this.textarea.value.substring(end)}`;\n\n    this.setText(text);\n    this.textarea.selectionEnd = (start === end) ? end + 1 : end;\n  }\n\n  handleBackspace = () => {\n    const start = this.getPosition('start');\n    const end = this.getPosition('end');\n\n    if (start !== 0) {\n      const text = (start === end) ? this.textarea.value.substring(0, start - 1) + this.textarea.value.substring(end) : this.textarea.value.substring(0, start) + this.textarea.value.substring(end);\n\n      this.textarea.value = text;\n      this.textarea.focus();\n      this.textarea.selectionEnd = start - 1;\n      this.textarea.selectionStart = start - 1;\n    }\n  }\n\n  getPosition = (pos) => {\n    if (pos === \"start\") {\n      return this.textarea.selectionStart;\n    } if (pos === \"end\") {\n      return this.textarea.selectionEnd;\n    } \n      return false;\n    \n  }\n\n  setText = (text) => {\n    this.textarea.value = text;\n    this.textarea.focus();\n  }\n\n  keyHandle = (keyDown) => {\n\n    const { flagShift } = this;\n    // const { flagCtrl } = this;\n    const keyCode = keyDown.getAttribute(\"id\");\n    const { value } = this.keyLang[keyCode];\n    const { valueShift } = this.keyLang[keyCode];\n    const start = this.getPosition('start');\n    const end = this.getPosition('end');\n\n    keyDown.classList.add(\"key--active\");\n    this.textarea.focus();\n\n    if (keyCode === \"Enter\") {\n      this.handleEnter();\n    } else if (keyCode === \"CapsLock\") {\n      this.handleCapsLock(keyDown);\n    } else if (keyCode === \"Tab\") {\n      this.handleTab();\n    } else if (keyCode === \"Delete\") {\n      this.handleDelete();\n    } else if (keyCode === \"ArrowLeft\") {\n      this.handleArrowLeft();\n    } else if (keyCode === \"ArrowRight\") {\n      this.handleArrowRight();\n    } else if (keyCode === \"ArrowUp\") {\n      this.handleArrowUp();\n    } else if (keyCode === \"ArrowDown\") {\n      this.handleArrowDown();\n    } else if (keyCode === \"Backspace\") {\n      this.handleBackspace();\n    } else if (flagShift === true && keyCode === \"AltLeft\") {\n      this.changeLanguage();\n      this.flagShift = false;\n      this.ShiftLeft.classList.remove(\"key--active\");\n      this.ShiftRight.classList.remove(\"key--active\");\n    } else if (!keyCode.includes(\"Shift\") && !keyCode.includes(\"Control\") && !keyCode.includes(\"Alt\") && !keyCode.includes(\"Meta\")) {\n\n      const inputSymbol = !this.flagCaps ? value : value.toUpperCase();\n      const newSymbol = (flagShift === true) ? valueShift : inputSymbol;\n      const text = this.textarea.value.substring(0, start) + newSymbol + this.textarea.value.substring(end);\n\n      this.setText(text);\n      this.textarea.selectionEnd = (start === end) ? end + newSymbol.length : end;\n    }\n  }\n\n  keyboardEventEnable = (event) => {\n    const keyDown = this[event.code];\n\n    if (!event.code.includes(\"Shift\") && event.flagShift) this.flagShift = true;\n    if (!event.code.includes(\"Control\") && event.flagCtrl) this.flagCtrl = true;\n\n    if (keyDown != null) {\n      event.preventDefault();\n      this.keyHandle(keyDown);\n    }\n  }\n\n  keyboardEventDisable = (event) => {\n    const keyUp = this[event.code];\n\n    if (event.code.includes(\"Shift\")) {\n      this.flagShift = false;\n      this.ShiftLeft.classList.remove(\"key--active\");\n      this.ShiftRight.classList.remove(\"key--active\");\n    }\n\n    if (event.code.includes(\"Control\")) {\n      this.flagCtrl = false;\n      this.ControlLeft.classList.remove(\"key--active\");\n      this.ControlRight.classList.remove(\"key--active\");\n    }\n    if (keyUp != null && event.code !== \"CapsLock\") {\n      keyUp.classList.remove(\"key--active\");\n    }\n  }\n\n  mouseEvent = (event) => {\n    event.stopImmediatePropagation();\n    event.preventDefault();\n\n    const keyCode = event.target.getAttribute(\"id\");\n\n    if (!keyCode) return null;\n\n    if (keyCode.includes(\"Shift\")) {\n      if (this.ShiftLeft.classList.contains(\"key--active\") || this.ShiftRight.classList.contains(\"key--active\")) {\n        this.flagShift = false;\n        this.ShiftLeft.classList.remove(\"key--active\");\n        this.ShiftRight.classList.remove(\"key--active\");\n      } else {\n        this.flagShift = true;\n      }\n    }\n\n    if (keyCode.includes(\"Control\")) {\n      if (\n        this.ControlLeft.classList.contains(\"key--active\") ||\n        this.ControlRight.classList.contains(\"key--active\")\n      ) {\n        this.flagCtrl = false;\n        this.ControlLeft.classList.remove(\"key--active\");\n        this.ControlRight.classList.remove(\"key--active\");\n      } else this.flagCtrl = true;\n    }\n\n    this.keyHandle(event.target);\n\n    if (keyCode !== \"CapsLock\" && !keyCode.includes(\"Shift\") && !keyCode.includes(\"Control\")) {\n      event.target.classList.remove(\"key--active\");\n    }\n\n    if (keyCode.includes(\"Shift\") && !this.flagShift) {\n      event.target.classList.remove(\"key--active\");\n    }\n\n    if (keyCode.includes(\"Control\") && !this.flagCtrl) {\n      event.target.classList.remove(\"key--active\");\n    }\n\n    return false;\n  }\n\n  changeLanguage = () => {\n    if (this.lang === 'eng') {\n      this.lang = \"rus\";\n    } else {\n      this.lang = \"eng\";\n    }\n\n    localStorage.setItem(\"language\", this.lang);\n\n    this.cleanDOM();\n    this.addKeyboard(this.lang);\n  }\n\n  someKeys = () => {\n    const pressed = new Set();\n\n    document.addEventListener(\"keydown\", (event) => {\n      event.preventDefault();\n      pressed.add(event.code);\n\n      if (pressed.has(\"ShiftLeft\") && pressed.has(\"AltLeft\")) {\n        pressed.clear();\n        this.changeLanguage();\n      }\n    });\n\n    document.addEventListener(\"keyup\", (event) => {\n      pressed.delete(event.code);\n    });\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Keyboard);\n\n\n//# sourceURL=webpack://virtual-keyboard/./src/js/keyboard.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data */ "./src/js/data.js");
+
+
+class Keyboard {
+  constructor() {
+    this.flagCaps = false;
+    this.flagShift = false;
+    this.flagCtrl = false;
+    this.lang = null;
+    this.wrap = null;
+    this.copyboard = "";
+
+    this.init();
+  }
+
+  init() {
+
+    this.createDOM();
+    this.createDescription();
+
+    document.addEventListener('keydown', (e) => {
+      this.keyboardEventEnable(e);
+    });
+
+    document.addEventListener('keyup', (e) => {
+      this.keyboardEventDisable(e);
+    });
+
+    this.someKeys();
+    this.getLanguage()
+  }
+
+  createDOM = () => {
+    this.wrap = null;
+    this.wrap = document.createElement("div");
+    this.wrap.classList.add("keyboard");
+
+    this.textarea = document.createElement("textarea");
+    this.textarea.classList.add("keyboard__textarea");
+    this.wrap.appendChild(this.textarea);
+
+    this.keyboard = document.createElement("div");
+    this.keyboard.classList.add("keyboard__control");
+    this.wrap.appendChild(this.keyboard);
+
+    this.keyboard.addEventListener("click", (e) => {
+      this.mouseEvent(e);
+    });
+
+    document.body.appendChild(this.wrap);
+  }
+
+  cleanDOM = () => {
+    this.keyboard.innerHTML = "";
+  }
+
+  getLanguage = () => {
+    const langStorage = localStorage.getItem("language");
+    let lang = "eng";
+
+    if (langStorage) {
+      lang = langStorage;
+    }
+
+    this.addKeyboard(lang);
+  }
+
+  addKeyboard(langKeyboard) {
+    this.lang = langKeyboard;
+
+    if (langKeyboard === "eng") {
+      this.keyLang = _data__WEBPACK_IMPORTED_MODULE_0__.dataEng
+    } else {
+      this.keyLang = _data__WEBPACK_IMPORTED_MODULE_0__.dataRus
+    }
+
+    Object.keys(this.keyLang).forEach((keyCode) => {
+      this[keyCode] = document.createElement("div");
+      this[keyCode].setAttribute("id", `${keyCode}`);
+
+      if (this.keyLang[keyCode].symbol) {
+        this[keyCode].innerHTML = this.keyLang[keyCode].symbol;
+      } else {
+        this[keyCode].innerHTML = `${this.keyLang[keyCode].value}`;
+      }
+
+      /* eslint-disable-next-line */
+      for (const i of this.keyLang[keyCode].class) {
+        this[keyCode].classList.add(i);
+      }
+
+      this.keyboard.appendChild(this[keyCode]);
+    });
+  }
+
+  createDescription = () => {
+    const footerNode = document.createElement("div");
+    footerNode.classList.add('keyboard__info');
+
+    const message = `
+      <p>Тестировалось в Chrome для Windows (версия 101.0.4951.54)</p>
+      <p>Переключение языка: <strong>LShift + LAlt</strong></p>
+      <p>Связаться: <a href="https://t.me/Kenny_Nobody">Kenny_Nobody</a></p>
+    `;
+
+    footerNode.innerHTML = message;
+    this.wrap.prepend(footerNode);
+  }
+
+  handleEnter = () => {
+    const start = this.getPosition('start');
+    const end = this.getPosition('end');
+    const text = `${this.textarea.value.substring(0, start)}\n${this.textarea.value.substring(end)}`;
+
+    this.textarea.value = text;
+    this.textarea.focus();
+    this.textarea.selectionEnd = this.getPosition('end') - this.textarea.value.substring(end).length + 1;
+    this.textarea.selectionStart = this.getPosition('end') - this.textarea.value.substring(end).length + 1;
+  }
+
+  handleCapsLock = (keyDown) => {
+    if (!this.flagCaps) {
+      for (let k = 0; k < this.keyboard.children.length; k += 1) {
+        const key = this.keyboard.children[k];
+        if (key.classList.contains("key--letter")) {
+          key.textContent = key.textContent.toUpperCase();
+        }
+      }
+    } else {
+      keyDown.classList.remove("key--active");
+
+      for (let k = 0; k < this.keyboard.children.length; k += 1) {
+        const key = this.keyboard.children[k];
+        if (key.classList.contains("key--letter")) {
+          key.textContent = key.textContent.toLowerCase();
+        }
+      }
+    }
+    this.flagCaps = !this.flagCaps;
+  }
+
+  handleTab = () => {
+    const start = this.getPosition('start');
+    const end = this.getPosition('end');
+    const tabSymbol = "    ";
+    const text = this.textarea.value.substring(0, start) + tabSymbol + this.textarea.value.substring(end);
+
+    this.textarea.value = text;
+    this.textarea.focus();
+    this.textarea.selectionEnd = start === end ? end + tabSymbol.length : end;
+  }
+
+  handleDelete = () => {
+    const start = this.getPosition('start');
+    const end = this.getPosition('end');
+
+    const text = (start === end) ? this.textarea.value.substring(0, start) + this.textarea.value.substring(end + 1) : this.textarea.value.substring(0, start) + this.textarea.value.substring(end);
+
+    this.textarea.value = text;
+    this.textarea.focus();
+    this.textarea.selectionEnd = start;
+    this.textarea.selectionStart = start;
+  }
+
+  handleArrowLeft = () => {
+    const start = this.getPosition('start');
+
+    if (start) {
+      this.textarea.selectionEnd = start - 1;
+      this.textarea.selectionStart = start - 1;
+    }
+  }
+
+  handleArrowRight = () => {
+    const start = this.getPosition('start');
+    const end = this.getPosition('end');
+
+    if (this.flagShift === true) {
+      this.textarea.selectionEnd = end + 1;
+    } else {
+      this.textarea.selectionEnd = start + 1;
+      this.textarea.selectionStart = start + 1;
+    }
+  }
+
+  handleArrowUp = () => {
+    const start = this.getPosition('start');
+    const end = this.getPosition('end');
+    const text = `${this.textarea.value.substring(0, start)}↑${this.textarea.value.substring(end)}`;
+
+    this.setText(text);
+    this.textarea.selectionEnd = (start === end) ? end + 1 : end;
+  }
+
+  handleArrowDown = () => {
+    const start = this.getPosition('start');
+    const end = this.getPosition('end');
+    const text = `${this.textarea.value.substring(0, start)}↓${this.textarea.value.substring(end)}`;
+
+    this.setText(text);
+    this.textarea.selectionEnd = (start === end) ? end + 1 : end;
+  }
+
+  handleBackspace = () => {
+    const start = this.getPosition('start');
+    const end = this.getPosition('end');
+
+    if (start !== 0) {
+      const text = (start === end) ? this.textarea.value.substring(0, start - 1) + this.textarea.value.substring(end) : this.textarea.value.substring(0, start) + this.textarea.value.substring(end);
+
+      this.textarea.value = text;
+      this.textarea.focus();
+      this.textarea.selectionEnd = start - 1;
+      this.textarea.selectionStart = start - 1;
+    }
+  }
+
+  getPosition = (pos) => {
+    if (pos === "start") {
+      return this.textarea.selectionStart;
+    } if (pos === "end") {
+      return this.textarea.selectionEnd;
+    } 
+      return false;
+    
+  }
+
+  setText = (text) => {
+    this.textarea.value = text;
+    this.textarea.focus();
+  }
+
+  keyHandle = (keyDown) => {
+
+    const { flagShift } = this;
+    // const { flagCtrl } = this;
+    const keyCode = keyDown.getAttribute("id");
+    const { value } = this.keyLang[keyCode];
+    const { valueShift } = this.keyLang[keyCode];
+    const start = this.getPosition('start');
+    const end = this.getPosition('end');
+
+    keyDown.classList.add("key--active");
+    this.textarea.focus();
+
+    if (keyCode === "Enter") {
+      this.handleEnter();
+    } else if (keyCode === "CapsLock") {
+      this.handleCapsLock(keyDown);
+    } else if (keyCode === "Tab") {
+      this.handleTab();
+    } else if (keyCode === "Delete") {
+      this.handleDelete();
+    } else if (keyCode === "ArrowLeft") {
+      this.handleArrowLeft();
+    } else if (keyCode === "ArrowRight") {
+      this.handleArrowRight();
+    } else if (keyCode === "ArrowUp") {
+      this.handleArrowUp();
+    } else if (keyCode === "ArrowDown") {
+      this.handleArrowDown();
+    } else if (keyCode === "Backspace") {
+      this.handleBackspace();
+    } else if (flagShift === true && keyCode === "AltLeft") {
+      this.changeLanguage();
+      this.flagShift = false;
+      this.ShiftLeft.classList.remove("key--active");
+      this.ShiftRight.classList.remove("key--active");
+    } else if (!keyCode.includes("Shift") && !keyCode.includes("Control") && !keyCode.includes("Alt") && !keyCode.includes("Meta")) {
+
+      const inputSymbol = !this.flagCaps ? value : value.toUpperCase();
+      const newSymbol = (flagShift === true) ? valueShift : inputSymbol;
+      const text = this.textarea.value.substring(0, start) + newSymbol + this.textarea.value.substring(end);
+
+      this.setText(text);
+      this.textarea.selectionEnd = (start === end) ? end + newSymbol.length : end;
+    }
+  }
+
+  keyboardEventEnable = (event) => {
+    const keyDown = this[event.code];
+
+    if (!event.code.includes("Shift") && event.flagShift) this.flagShift = true;
+    if (!event.code.includes("Control") && event.flagCtrl) this.flagCtrl = true;
+
+    if (keyDown != null) {
+      event.preventDefault();
+      this.keyHandle(keyDown);
+    }
+  }
+
+  keyboardEventDisable = (event) => {
+    const keyUp = this[event.code];
+
+    if (event.code.includes("Shift")) {
+      this.flagShift = false;
+      this.ShiftLeft.classList.remove("key--active");
+      this.ShiftRight.classList.remove("key--active");
+    }
+
+    if (event.code.includes("Control")) {
+      this.flagCtrl = false;
+      this.ControlLeft.classList.remove("key--active");
+      this.ControlRight.classList.remove("key--active");
+    }
+    if (keyUp != null && event.code !== "CapsLock") {
+      keyUp.classList.remove("key--active");
+    }
+  }
+
+  mouseEvent = (event) => {
+    event.stopImmediatePropagation();
+    event.preventDefault();
+
+    const keyCode = event.target.getAttribute("id");
+
+    if (!keyCode) return null;
+
+    if (keyCode.includes("Shift")) {
+      if (this.ShiftLeft.classList.contains("key--active") || this.ShiftRight.classList.contains("key--active")) {
+        this.flagShift = false;
+        this.ShiftLeft.classList.remove("key--active");
+        this.ShiftRight.classList.remove("key--active");
+      } else {
+        this.flagShift = true;
+      }
+    }
+
+    if (keyCode.includes("Control")) {
+      if (
+        this.ControlLeft.classList.contains("key--active") ||
+        this.ControlRight.classList.contains("key--active")
+      ) {
+        this.flagCtrl = false;
+        this.ControlLeft.classList.remove("key--active");
+        this.ControlRight.classList.remove("key--active");
+      } else this.flagCtrl = true;
+    }
+
+    this.keyHandle(event.target);
+
+    if (keyCode !== "CapsLock" && !keyCode.includes("Shift") && !keyCode.includes("Control")) {
+      event.target.classList.remove("key--active");
+    }
+
+    if (keyCode.includes("Shift") && !this.flagShift) {
+      event.target.classList.remove("key--active");
+    }
+
+    if (keyCode.includes("Control") && !this.flagCtrl) {
+      event.target.classList.remove("key--active");
+    }
+
+    return false;
+  }
+
+  changeLanguage = () => {
+    if (this.lang === 'eng') {
+      this.lang = "rus";
+    } else {
+      this.lang = "eng";
+    }
+
+    localStorage.setItem("language", this.lang);
+
+    this.cleanDOM();
+    this.addKeyboard(this.lang);
+  }
+
+  someKeys = () => {
+    const pressed = new Set();
+
+    document.addEventListener("keydown", (event) => {
+      event.preventDefault();
+      pressed.add(event.code);
+
+      if (pressed.has("ShiftLeft") && pressed.has("AltLeft")) {
+        pressed.clear();
+        this.changeLanguage();
+      }
+    });
+
+    document.addEventListener("keyup", (event) => {
+      pressed.delete(event.code);
+    });
+  }
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Keyboard);
+
 
 /***/ })
 
@@ -116,11 +1165,25 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/js/index.js");
-/******/ 	
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _css_normalize_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/normalize.scss */ "./src/css/normalize.scss");
+/* harmony import */ var _css_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/main.scss */ "./src/css/main.scss");
+/* harmony import */ var _keyboard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./keyboard */ "./src/js/keyboard.js");
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  window.app = new _keyboard__WEBPACK_IMPORTED_MODULE_2__["default"]();
+});
+})();
+
 /******/ })()
 ;
+//# sourceMappingURL=bundle.js.map
