@@ -1,0 +1,134 @@
+$dark: #555555;
+$grey: #CECECE;
+$light: #F5F5F5;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $light;
+  min-height: 100vh;
+}
+
+.keyboard {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  &__textarea {
+    width: 100%;
+    height: 14rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px 7px 0 0;
+    font-size: 2rem;
+    color: #002e2c;
+    padding: 2rem;
+    overflow-y: auto;
+    line-height: 1.4;
+    outline: none;
+    resize: none;
+    border-left: 1px solid $dark;
+    border-top: 1px solid $dark;
+    border-right: 1px solid $dark;
+  }
+  &__control {
+    width: 100%;
+    height: 24rem;
+    background-color: $light;
+    padding: 1rem;
+    border-radius: 0 0 7px 7px;
+    border-left: 1px solid $dark;
+    border-right: 1px solid $dark;
+    border-bottom: 1px solid $dark;
+    gap: 3px;
+    display: grid;
+    grid-template-columns:
+        minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  }
+  &__info {
+    p {
+      margin-bottom: 1rem;
+    }
+    strong {
+      font-weight: 600;
+    }
+    a {
+      color: $dark;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.key {
+  background-color: $light;
+  color: #7F7F7F;
+  border: #9D9D9D 1px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  grid-column: span 3;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  }
+  &:active {
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.5);
+  }
+
+  &--active {
+    transform: scale(0.9);
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.5);
+  }
+  &--dark {
+    background-color: $dark;
+    color: $light;
+  }
+  &--backspace {
+    grid-column: span 6;
+  }
+  &--tab {
+    grid-column: span 4;
+  }
+  &--del {
+    grid-column: span 2;
+  }
+  &--caps {
+    grid-column: span 5;
+  }
+  &--shift-left {
+    grid-column: span 6;
+  }
+  &--shift-right {
+    grid-column: span 6;
+  }
+  &--enter {
+    grid-column: span 7;
+  }
+  &--alt {
+    grid-column: span 4;
+  }
+  &--ctrl {
+    grid-column: span 4;
+  }
+  &--space {
+    grid-column: span 17;
+  }
+}
